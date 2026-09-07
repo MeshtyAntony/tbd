@@ -1,6 +1,8 @@
-import openai
 import os
+
+import openai
 from dotenv import load_dotenv
+
 load_dotenv()
 
 local_client = openai.OpenAI(
